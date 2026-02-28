@@ -1,7 +1,7 @@
 # AI-Testing
 Quality isn’t a vibe. It’s a pipeline
 
-🧪 #AI Evaluation Stack & Workflow
+🧪 # **AI Evaluation Stack & Workflow**
 
 This repository follows a production-oriented evaluation workflow for LLMs and agentic systems.
 The goal is to make model quality, safety, and reliability measurable, repeatable, and shippable.
@@ -59,20 +59,20 @@ The goal is to make model quality, safety, and reliability measurable, repeatabl
               (continuous loop)
 
 
-🧩 #Key Concepts
+🧩 # **Key Concepts**
 
-Build Eval Workflows
+**Build Eval Workflows**
 Reusable pipelines that run evaluations automatically across models, prompts, and agents.
 
-LLM-as-Judge
+**LLM-as-Judge**
 LLMs used to score or compare outputs at scale, combined with deterministic checks to reduce bias.
 
-Agent Evals
+**Agent Evals**
 Evaluations for multi-step, tool-using systems focusing on task success, planning quality, and failure modes.
 
-Instrumentation
+**Instrumentation**
 Observability added to production systems to capture real-world behavior and detect drift.
 
-Release Readiness
+**Release Readiness**
 Explicit quality gates that must pass before shipping changes to production.
               
